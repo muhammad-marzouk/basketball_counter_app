@@ -12,9 +12,7 @@ class PointsCounter extends StatefulWidget {
 }
 
 class _PointsCounterState extends State<PointsCounter> {
-  int teamAPoints = 0;
 
-  int teamBPoints = 0;
 
   void addOnePoint() {
     print('add one point');
